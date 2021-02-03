@@ -1,6 +1,8 @@
 Pymaceutical analysis with visualizations using python library matplotlib.
 
-Utilized a dataset that contained the results of a anti-cancer pharmaceutical. The data showed 249 mice that were identified with squamous cell carcinoma (SCC). Over the course of 45 days, tumor development was observed and measured.  The purpose of the study was to compare performance of Capomulin vs other treatment regimens. 
+Dataset: anti-cancer pharmaceutical data that observed 249 mice identified as having squamous cell carcinoma. The data observes the mice over a 45 day period, measuring tumor size of mice given treatments of Campomulin vs other treatment regimens.
+
+Step 1: 
 
 Before visualizations and calculations were made I had to clean the data and look for any duplicate counts.  There was one duplicate mouse discover and removed from the dataset.  
 
