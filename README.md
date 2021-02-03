@@ -4,22 +4,34 @@ Dataset: anti-cancer pharmaceutical data that observed 249 mice identified as ha
 
 Step 1: 
 
-Before visualizations and calculations were made I had to clean the data and look for any duplicate counts.  There was one duplicate mouse discover and removed from the dataset.  
+Set dependencies (matplotlib.pyplot,pandas, numpy, scipy.stats, and scipy.stats) and read in csv files. 
 
-The visualizations and calculations made to show the performance of the drug are follows:
+Step 2: 
 
--Generated a summary statistic dashboard that contains mean, median, variance, standard deviation, standard error mean (SEM) of the tumor volumen for each drug regimen.
+Merged study and mouse data together. Then groupby drug type to generate a statistic dashboard that contains: mean, median, variance, standard deviation, standard error mean (SEM) of tumor size.
+ 
+Step 3:
 
--Generated a bar plot that displays the number of total mice for each treatment regimen throughout the course of the study.
+Generated a bar plot that displayes the number of total mice for each treatment regimen throughout the 45 day observation period. 
 
--Generated a pie plot that shows the distribution of female or male mice 
+Step 4: 
 
--Calculated the final tumor volume of each mouse across the four most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Also, calculated the quartiles and inter quartile range to determine if there are any potential outliers across the four treatment regimens.
+Generated a pie plot that shows the distribution of female to male mice. 
 
--Generated a box and whisker plot of the final tumor volumne for all four treatment regimens and highlighted any potential outliers.
+Step 5:
 
--Selected a singular mouse that was treated with Capomulin and generated a line plot of tumor volumne vs. time point for that mouse.
+Calculated the final tumor volume of each mouse across the observed four most treatment regims: Capomulin, Ramicane, Infubinol, and Ceftamin. 
 
--Calculate the correlation coefficient and linear regression model between mouse weight and average tumor volumne for the Capolumlin treatment. 
+Then calculated the quartiles and inter quartile range to observe any potential outliers across the treatment regimens. 
 
--Finally there is a document that shows three observations made from visualizations and calculations.
+Generated a box and whisker plot of the final tumor volumne for four afermentioned treatment regimens and highlighted outliers.
+
+Step 6:
+
+Selected a singular mouse that was treated with Capomulin and generated a line plot of tumor volumne vs. time point for that mouse.
+
+Calculated the correlation coefficient and linear regression model between mouse weight and average tumor volumne for the Capolumlin treatment. 
+
+Step 7:
+
+Generated a document that highlights three observations made from visualizations and calculations.
