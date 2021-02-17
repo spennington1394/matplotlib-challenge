@@ -1,4 +1,4 @@
-Pymaceutical analysis with visualizations using python library matplotlib.
+Pharmaceutical analysis with visualizations using python library matplotlib.
 
 Dataset: anti-cancer pharmaceutical data that observed 249 mice identified as having squamous cell carcinoma. The data observes the mice over a 45 day period, measuring tumor size of mice given treatments of Campomulin vs other treatment regimens.
 
